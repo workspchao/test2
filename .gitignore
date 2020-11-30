@@ -15,3 +15,12 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+writable/cache/*.json
+!writable/cache/index.html
+writable/debugbar/*.json
+!writable/debugbar/.gitkeep
+writable/logs/*.log
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
